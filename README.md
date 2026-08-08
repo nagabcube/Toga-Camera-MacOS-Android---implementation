@@ -9,7 +9,7 @@ Olyan Android app létrehozása, amivel:
 
 ### Lehetséges felhasználási területek:
 
-* Minden olyan alkalmazási terület, ahol az adatgyűjtés szerves része a heelyszínen készített fotódokumentumok tárolása
+* Minden olyan alkalmazási terület, ahol az adatgyűjtés szerves része a helyszínen készített fotódokumentumok tárolása
 
 ### A megvalósítás eszközei:
 
