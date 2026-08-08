@@ -24,7 +24,7 @@ Valamilyen Javascript könyvtár (jelen esetben: Webix)
 
 ```python
 """
-Fotózás és fényképtárolás DB-ben
+Fotózás és fényképtárolás - MacOs/Android app plan
 """
 import asyncio
 import base64
