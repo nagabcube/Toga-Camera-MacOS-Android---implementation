@@ -13,7 +13,7 @@ Olyan Android app létrehozása, amivel:
 
 ### A megvalósítás eszközei:
 
-Python eszközök: Beerware-Toga, Briefcase, Flask, SQLite
+Python eszközök: Beeware-Toga, Briefcase, Flask, SQLite
 Valamilyen Javascript könyvtár (jelen esetben: Webix)
 
 ### Implementáció
