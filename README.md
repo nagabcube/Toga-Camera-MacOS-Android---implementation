@@ -214,5 +214,5 @@ Minthogy a Toga Python kód hamarabb próbálja meg lefutattatni az `onNativePho
 Miért kiváló ez a hibrid felépítés?
 
 * Kihasználja a Flask architektúrát: A Javascript rész AJAX-szal kommunikál a Flask-kel, így bármely DB-kezelő (SQLite, PostgreSQL stb.) alkalmazható adattárolásra.
-* A kamera megnyitását nem a Toga-WebView-ra bízza (ahol elhasalna a jogosultságokon), hanem a Toga natív, stabil API-jára.
+* A kamera megnyitását a Toga natív, stabil API-jára bízza
 * Zökkenőmentes adatfolyam: a fénykép átadása (Toga -> WebView JS -> Flask Route -> DB) teljesen a memóriában és lokális HTTP hívásokon keresztül zajlik, így nincs szükség bonyolult Androidos fájl-jogosultságok konfigurálására.
