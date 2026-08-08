@@ -1,4 +1,4 @@
-# TOGA - Camera
+# TOGA - Camera (implementáció tervezet)
 
 ### Cél:
 
