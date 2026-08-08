@@ -4,7 +4,7 @@
 
 Olyan Android app létrehozása, amivel:
 
-* Fotókat lehet készíteni vele anélkül, hogy az alkalmazást "elhagynánk"
+* Fotókat lehet készíteni anélkül, hogy az alkalmazást "elhagynánk"
 * A készített fényképek nem az Android Fényképgalériába kerülnek, hanem egy erre a célra kialakított adatbázisba. (további lehetőségek: a kép EXIF adatainak kiolvasása, esetleg tárolása)
 
 ### Lehetséges felhasználási területek:
