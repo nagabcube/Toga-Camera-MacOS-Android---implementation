@@ -1,0 +1,49 @@
+# This project was generated with 0.4.4 using template: https://github.com/beeware/briefcase-template @ v0.4.4
+[tool.briefcase]
+project_name = "Photo DB"
+bundle = "com.photodb"
+version = "0.0.1"
+url = "https://vituki.eu/photodb"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+author = "nagab"
+author_email = "ngabor2013@gmail.com"
+
+[tool.briefcase.app.photodb]
+formal_name = "Photo DB"
+description = "Fotózás és fényképtárolás DB-ben"
+
+permission.camera = "App will take mugshots."
+
+sources = [
+    "src/photodb",
+    "src/photodb/static",
+    "src/photodb/templates"
+]
+
+requires = [
+    "flask",
+    "werkzeug",
+    "toga"
+]
+
+[tool.briefcase.app.photodb.android]
+requires = [
+    "flask",
+    "werkzeug",
+    "toga-android~=0.5.0",
+]
+permissions = [
+    "android.permission.CAMERA"
+]
+
+[tool.briefcase.app.photodb.macOS]
+universal_build = true
+# Így a Mac tudni fogja, miért akarod használni a kamerát, és nem dob figyelmeztetést
+info_plist = { "NSCameraUsageDescription" = "A hulladéklerakók lefotózásához szükséges a kamera elérése." }
+requires = [
+    "flask",
+    "werkzeug",
+    "toga-cocoa~=0.5.0",
+    "std-nslog~=2.0.0",
+]
